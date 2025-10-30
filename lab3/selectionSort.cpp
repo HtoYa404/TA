@@ -7,8 +7,7 @@ int findSmallestPosition(int* list, int listLength, int startPosition){
             smallestPosition = i;
         }        
     }
-    return smallestPosition;
-}
+    return smallestPositio
 
 void selectionSort(int* list, int listLength){
     for(int i = 0; i < listLength - 1;++i){
